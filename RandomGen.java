@@ -9,7 +9,6 @@ public class RandomGen {
         int min, max;
 
         Random rand = new Random();
-        Scanner input = new Scanner(System.in);
 
         start = rand.nextInt(20);
         System.out.println("Starting number: " + start);
